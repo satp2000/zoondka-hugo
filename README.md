@@ -1,41 +1,7 @@
-# Victor Hugo
+# Zoondka static site using Victor Hugo
 
-**A [Hugo](https://gohugo.io/) boilerplate for creating truly epic websites**
-
-This is a boilerplate for using Hugo as a static site generator and Gulp + Webpack as your
+Uses Victor Hugo boilerplate which in turn uses [Hugo](https://gohugo.io/) as a static site generator and Gulp + Webpack as your
 asset pipeline.
-
-It's setup to use post-css and babel for CSS and JavaScript.
-
-This project is released under the [MIT license](LICENSE). Please make sure you understand its implications and guarantees.
-
-## Usage
-
-Be sure that you have the latest node, npm and [Hugo](https://gohugo.io/) installed. If you need to install hugo on OSX, run:
-
-```bash
-brew install hugo
-```
-
-If you don't use OSX or don't use homebrew, follow the instructions for installation here instead:
-
-http://gohugo.io/overview/installing/
-
-Next, clone this repository and run:
-
-```bash
-npm install
-npm start
-```
-
-Then visit http://localhost:3000/ - BrowserSync will automatically reload CSS or
-refresh the page when stylesheets or content changes.
-
-To build your static output to the `/public` folder, use:
-
-```bash
-npm run build
-```
 
 ## Structure
 
@@ -74,18 +40,3 @@ You can use ES6 and use both relative imports or import libraries from npm.
 
 Any CSS file directly under the `src/css/` folder will get compiled with [PostCSS Next](http://cssnext.io/)
 to `/dist/css/{filename}.css`. Import statements will be resolved as part of the build
-
-## Deploying to netlify
-
-- Push your clone to your own GitHub repository.
-- [Create a new site on Netlify](https://app.netlify.com/start) and link the repository.
-
-Now netlify will build and deploy your site whenever you push to git.
-
-You can also click this button:
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/eliwilliamson/victor-hugo)
-
-
-
-## Enjoy!!
