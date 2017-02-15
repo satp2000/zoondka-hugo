@@ -1,0 +1,13 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Zoondka"
+[params]
+  description = "I <3 making web site"
+  mainIcon = "/img/zoondka_logo_andrewright.png"
+
+[[params.social]]
+    title = "github"
+    url = "https://github.com/zoondka"
+[[params.social]]
+    title = "linkedin"
+    url = "https://www.linkedin.com/company/zoondka"
